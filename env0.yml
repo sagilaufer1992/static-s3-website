@@ -10,7 +10,7 @@ deploy:
     terraformPlan:
       before:
         - name: TFLint
-          use: https://github.com/env0/env0-tflint-plugin/tree/fix-replace-echo-with-export
+          use: https://github.com/env0/env0-tflint-plugin@echotoexport
           inputs:
             version: v0.43.0
             directory: .
