@@ -4,4 +4,4 @@ deploy:
   steps:
     terraformInit:
       before:
-        - sed 's/!!!USER!!!/'"$USER"'/g' index.template.html > index.html
+        - sed 's/!!!NAME!!!/'"$NAME"'/g' index.template.html > index.html
