@@ -1,3 +1,3 @@
 output "url" {
-  value = module.s3-website.url
+  value = module.static-website-s3.url
 }
