@@ -9,14 +9,8 @@ deploy:
 
     terraformPlan:
       before:
-        - name: TFSec
-          use: https://github.com/env0/env0-tfsec-plugin@echotoexport
-          inputs:
-            version: v1.28.0
-            directory: .
-
         - name: TFLint
-          use: https://github.com/env0/env0-tflint-plugin@echotoexport
+          use: https://github.com/env0/env0-tflint-plugin
           inputs:
             version: v0.44.1
             directory: .
