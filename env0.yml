@@ -12,6 +12,6 @@ deploy:
         - name: TFLint
           use: https://github.com/env0/env0-tflint-plugin@echotoexport
           inputs:
-            version: v0.43.0
+            version: v0.44.1
             directory: .
             flags: --recursive
